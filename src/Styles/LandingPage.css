@@ -1,0 +1,47 @@
+/* CSS for LandingPage.css */
+
+.landing-page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .comic {
+    margin: auto;
+    width: 50%;
+    position: absolute;
+    top: 50%; /* Adjusted to center vertically */
+    animation: comic-fall 2s ease-in-out forwards;
+    
+  }
+  
+  .coaster {
+    margin: auto;
+    width: 50%;
+    position: absolute;
+    bottom: 50%; /* Adjusted to center vertically */
+    animation: coaster-rise 2s ease-in-out forwards;
+  }
+  
+  @keyframes comic-fall {
+    0% {
+      top: -100%;
+    }
+    100% {
+      top: 45%;
+    }
+  }
+  
+  @keyframes  coaster-rise {
+    0% {
+      bottom: -100%;
+    }
+    100% {
+      bottom: 45%;
+    }
+  }
+  

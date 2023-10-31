@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../Styles/HeaderStyle.css'; // Import your custom CSS for styling
 
 const Header = () => {
   return (
@@ -7,19 +8,31 @@ const Header = () => {
       <div className="header-section">
         <nav>
           <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/menu">Menu</Link></li>
+            <li className="nav-item">
+              <Link to="/" className="nav-link">Home</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/menu" className="nav-link">Menu</Link>
+            </li>
           </ul>
         </nav>
       </div>
       <div className="header-section">
-        <div className="logo">Comics and Coasters</div>
+        <div className="logo">
+          <h1>Comics & Coasters</h1>
+          <p>A Fusion of Comics and Coffee</p>
+        </div>
       </div>
       <div className="header-section">
         <nav>
           <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li className="nav-item">
+              <Link to="/AboutUs" className="nav-link">About Us</Link>
+            </li>
+            <li className="nav-item">
+            <Link to="/Landing" className="nav-link">About Us</Link>
+              <a href="#" className="nav-link">Contact</a>
+            </li>
           </ul>
         </nav>
       </div>

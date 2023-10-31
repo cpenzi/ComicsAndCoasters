@@ -1,0 +1,25 @@
+/* HorizontalImageList.css */
+
+.horizontal-image-list {
+    width: 100%; /* Span the entire width of the parent container */
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+  }
+  
+  .image-container {
+    display: flex; /* Display images horizontally */
+    width: max-content; /* Expand to the size of the images */
+    align-content: center;
+    white-space: nowrap; /* Prevent images from wrapping to the next line */
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  
+  .image-container img {
+    max-width: 300px; /* Ensure images do not exceed the container width */
+    height: 300px; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add spacing between images */
+  }
+  
+  /* Optional: Add more styling as needed */
+  

@@ -1,0 +1,43 @@
+/* ImageWithText.css */
+
+.image-with-text {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 0px 50px;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: "Arial", sans-serif; /* Comic book-style font */
+    line-height: 2.5;
+    font-size: 15px;
+  }
+  
+.text-content {
+    flex: 1;
+    padding: 0px 50px;
+  }
+  
+  .image-with-text h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .image-with-text p {
+    font-size: 16px;
+  }
+  
+ .image-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .image-with-text img {
+    max-width: 225px;
+    height: 225px;
+    float: right;
+  }
+
+  
