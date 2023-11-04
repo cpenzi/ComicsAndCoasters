@@ -9,39 +9,44 @@
     align-items: center;
     overflow: hidden;
   }
-  
-  .comic {
-    margin: auto;
-    width: 50%;
-    position: absolute;
-    top: 50%; /* Adjusted to center vertically */
-    animation: comic-fall 2s ease-in-out forwards;
-    
+/* FallingImage.css */
+.falling {
+  height: 50vh;
+  width: 50vw;
+  animation: fall 3s linear;
+  animation-fill-mode: forwards;
+  position: absolute;
+  top: 0; /* Start from the top of the screen */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@keyframes fall {
+  0% {
+    transform: translateX(-50%) translateY(-100vh); /* Start off-screen */
   }
-  
-  .coaster {
-    margin: auto;
-    width: 50%;
-    position: absolute;
-    bottom: 50%; /* Adjusted to center vertically */
-    animation: coaster-rise 2s ease-in-out forwards;
+  100% {
+    transform: translateX(-50%) translateY(0); /* Reach the top of the screen */
   }
-  
-  @keyframes comic-fall {
-    0% {
-      top: -100%;
-    }
-    100% {
-      top: 45%;
-    }
+}
+
+/* RisingImage.css */
+.rising {
+  height: 50vh;
+  width: 50vw;
+  animation: rise 3s linear;
+  animation-fill-mode: forwards;
+  position: absolute;
+  bottom: 0; /* Start from the bottom of the screen */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@keyframes rise {
+  0% {
+    transform: translateX(-50%) translateY(100vh); /* Start off-screen */
   }
-  
-  @keyframes  coaster-rise {
-    0% {
-      bottom: -100%;
-    }
-    100% {
-      bottom: 45%;
-    }
+  100% {
+    transform: translateX(-50%) translateY(0); /* Reach the bottom of the screen */
   }
-  
+}

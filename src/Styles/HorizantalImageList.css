@@ -9,6 +9,7 @@
     display: flex; /* Display images horizontally */
     width: max-content; /* Expand to the size of the images */
     align-content: center;
+    gap: 10px;
     white-space: nowrap; /* Prevent images from wrapping to the next line */
     justify-content: flex-start;
     flex-wrap: wrap;

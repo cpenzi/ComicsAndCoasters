@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #2d2d2d;
+    background-color: #121212;
     color: #fff;
     text-align: center;
   }
@@ -13,10 +13,18 @@
     flex: 1;
   }
   
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
+  @font-face {
+    font-family: 'SuperComic';
+    src: url('../../public/Assets/Fonts/SuperComic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
   }
+
+ .logo {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'SuperComic';
+}
   
   nav ul {
     list-style: none;

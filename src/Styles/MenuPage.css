@@ -11,8 +11,15 @@
   .menu-page h1{
     text-align: center;
   }
+
+  .menu-section h2{
+    margin-left: 20px;
+  }
   
   .menu-grid {
+    padding: 10px;
+    max-width: 75vw;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
@@ -76,18 +83,39 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: 'Roboto', sans-serif;
 }
 .header-text h1 {
   font-size: 50px;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 .header-text p{
   font-size: 15px;
   font-weight: bold;
+  line-height: 1.6;
 }
 
 .menu-section{
-  max-width: 75vw;
   margin:0 auto;
   padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/* Add these styles to your MenuPage.css file */
+
+
+.menu-section h2 {
+  font-size: 30px;
+  margin: 0;
+  padding: 10px 0;
+  color: #333;
+  cursor: pointer;
 }

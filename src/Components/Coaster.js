@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 const Coaster = () => {
   return (
     <Link to="/coaster-link">
-      <div className="coaster">Coaster</div>
-      = 
+      <div className="coaster">Coaster<img src='/Assets/coffee-cup.png' /></div>
+      
     </Link>
   );
 };

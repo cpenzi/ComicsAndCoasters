@@ -29,10 +29,10 @@ const Header = () => {
             <li className="nav-item">
               <Link to="/AboutUs" className="nav-link">About Us</Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
             <Link to="/Landing" className="nav-link">About Us</Link>
               <a href="#" className="nav-link">Contact</a>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>
