@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Switch, 
-  Route, Redirect, BrowserRouter,Routes} from "react-router-dom";
-
+  Route, Redirect, BrowserRouter,Routes, HashRouter} from "react-router-dom";
 import React from 'react';
 import './Styles/HeaderStyle.css'
 import Header from './Layout/Header'
@@ -12,7 +11,7 @@ import LandingPage from "./Pages/LandingPage";
 
 function App() {
   return (
-    <BrowserRouter basename="/">
+    <HashRouter basename="/">
       <div className="App">
         <Header />
         <Routes>
@@ -23,7 +22,7 @@ function App() {
         </Routes>
         <Footer/>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
