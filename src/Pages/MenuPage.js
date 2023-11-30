@@ -100,7 +100,7 @@ const MenuPage = () => {
     <div className="menu-page">
       {/* Your hero image and text here */}
       <div className="hero-image">
-        <img src="/Assets/your-hero-image.jpg" alt="Hero Image" />
+        <img src="ComicsAndCoasters/Assets/your-hero-image.jpg" alt="Hero Image" />
         <div className="header-text">
           <h1>Coffee menu</h1>
           <p>"Discover a world of rich flavors and aromatic brews at our coffee haven. Our menu is a delightful journey through the art of coffee, featuring a selection of handcrafted beverages that awaken your senses and elevate your day. From the classic elegance of hot espresso to the refreshing chill of iced brews, our menu is a testament to the passion and expertise we pour into every cup. Explore our seasonal specialties and superhero-inspired creations, and let each sip transport you to a realm of coffee bliss. Embrace the extraordinary with our Coffee Shop's menu and savor the extraordinary in every sip."</p>
