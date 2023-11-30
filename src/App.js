@@ -12,7 +12,7 @@ import LandingPage from "./Pages/LandingPage";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <div className="App">
         <Header />
         <Routes>

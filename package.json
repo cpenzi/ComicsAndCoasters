@@ -1,7 +1,7 @@
 {
   "name": "comicsandcoasters",
   "version": "0.1.0",
-  "homepage": "https://cpenzi.github.io/ComicsAndCoasters",
+  "homepage": "https://cpenzi.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
