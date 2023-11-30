@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Switch, 
-  Route, Redirect, BrowserRouter,Routes} from "react-router-dom";
+  Route, Redirect, BrowserRouter,Routes, HashRouter} from "react-router-dom";
 
 import React from 'react';
 import './Styles/HeaderStyle.css'
