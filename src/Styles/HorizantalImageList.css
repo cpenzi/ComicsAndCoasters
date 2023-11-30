@@ -2,7 +2,7 @@
 
 .horizontal-image-list {
   width: 100%;
-  margin: 10px 0;
+  margin: 50px 0;
   display: flex;
   justify-content: center; /* Center the content horizontally */
   gap: 10px;
@@ -17,7 +17,7 @@
 }
 
 .image-container img {
-  height: 20vw; /* Let the height adjust to maintain aspect ratio */
+  height: 15vw; /* Let the height adjust to maintain aspect ratio */
   border: 1px solid #ddd; /* Add a border to each image */
   border-radius: 5px; /* Round the image corners */
   transition: transform 0.2s; /* Add a smooth hover effect */

@@ -1,25 +1,24 @@
 /* AboutUsPage.css */
-.about-us-page {
+.about-us-section{
     max-width: 75vw;
     margin: 0 auto;
     padding: 2rem;
   }
   
-  .about-us-page h2 {
+  .about-us-section h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
     color: #000000;
   }
   
-  .about-us-page .intro {
+  .about-us-section .about-us-subHeader{
     font-size: 1.2rem;
     margin-bottom: 2rem;
     color: #444;
   }
   
-  .about-us-page .team-members {
+  .about-us-section .team-members {
     display: flex; /* Display team members horizontally */
- 
     justify-content: center; /* Center the team members horizontally */
   }
   

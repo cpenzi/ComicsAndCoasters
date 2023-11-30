@@ -13,13 +13,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-    padding: 25px 50px;
     text-align: center;
     font-family: "Arial", sans-serif; /* Comic book-style font */
-    line-height: 2.5;
-    font-size: 15px;
-    
+    line-height: 1.8;
+    font-size: 25px;
   }
   
 .text-content {
@@ -31,7 +28,7 @@
   
   .image-with-text h2 {
     font-family: 'SuperComic';
-    font-size: 20px;
+    font-size: 35px;
   }
   
   
@@ -41,8 +38,8 @@
   }
   
   .image-with-text img {
-    max-width: 400px;
-    height: 300px;
+    max-width: 60%;
+    height: 75%;
     border-radius: 30px;
 
   }

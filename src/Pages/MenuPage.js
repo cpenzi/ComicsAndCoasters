@@ -98,7 +98,6 @@ const MenuPage = () => {
 
   return (
     <div className="menu-page">
-      {/* Your hero image and text here */}
       <div className="hero-image">
         <img src="/Assets/your-hero-image.jpg" alt="Hero Image" />
         <div className="header-text">

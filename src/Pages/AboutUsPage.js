@@ -26,9 +26,9 @@ const teamMembers = [
 
 function AboutUsPage() {
   return (
-    <div className="about-us-page">
+    <div className="about-us-section">
       <h2>Welcome to Comics and Coasters</h2>
-      <p className="intro">
+      <p className="intro about-us-subHeader">
         At Comics and Coasters, we believe in the perfect blend of two worlds: comics and coffee. Our team is dedicated
         to bringing you the best coffee and the most exciting comic books in a cozy and welcoming environment.
       </p>
