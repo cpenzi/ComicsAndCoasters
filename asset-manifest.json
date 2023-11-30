@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ComicsAndCoasters/static/css/main.4786406e.css",
-    "main.js": "/ComicsAndCoasters/static/js/main.af5aeff9.js",
-    "static/js/787.416f7345.chunk.js": "/ComicsAndCoasters/static/js/787.416f7345.chunk.js",
-    "static/media/CoffeeBeans.jpeg": "/ComicsAndCoasters/static/media/CoffeeBeans.4bc6e7681f2ec6e8a178.jpeg",
-    "static/media/SuperComic.ttf": "/ComicsAndCoasters/static/media/SuperComic.319ff159f05054dc2162.ttf",
-    "index.html": "/ComicsAndCoasters/index.html",
-    "main.4786406e.css.map": "/ComicsAndCoasters/static/css/main.4786406e.css.map",
-    "main.af5aeff9.js.map": "/ComicsAndCoasters/static/js/main.af5aeff9.js.map",
-    "787.416f7345.chunk.js.map": "/ComicsAndCoasters/static/js/787.416f7345.chunk.js.map"
+    "main.css": "/static/css/main.05136613.css",
+    "main.js": "/static/js/main.48fa9567.js",
+    "static/js/787.416f7345.chunk.js": "/static/js/787.416f7345.chunk.js",
+    "static/media/CoffeeBeans.jpeg": "/static/media/CoffeeBeans.4bc6e7681f2ec6e8a178.jpeg",
+    "static/media/SuperComic.ttf": "/static/media/SuperComic.319ff159f05054dc2162.ttf",
+    "index.html": "/index.html",
+    "main.05136613.css.map": "/static/css/main.05136613.css.map",
+    "main.48fa9567.js.map": "/static/js/main.48fa9567.js.map",
+    "787.416f7345.chunk.js.map": "/static/js/787.416f7345.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4786406e.css",
-    "static/js/main.af5aeff9.js"
+    "static/css/main.05136613.css",
+    "static/js/main.48fa9567.js"
   ]
 }
