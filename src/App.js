@@ -13,6 +13,7 @@ import LandingPage from "./Pages/LandingPage";
 function App() {
   return (
     <BrowserRouter>
+     <HashRouter basename="/">
       <div className="App">
         <Header />
         <Routes>
@@ -23,6 +24,7 @@ function App() {
         </Routes>
         <Footer/>
       </div>
+      </HashRouter>
     </BrowserRouter>
   );
 }
