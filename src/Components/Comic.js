@@ -6,7 +6,7 @@ const Comic = () => {
   return (
     <Link to="/comic-link">
       <div className="comic">Comic
-      <img src='/Assets/coffee-cup.png' /></div>
+      <img src='ComicsAndCoasters/Assets/coffee-cup.png' /></div>
       
     </Link>
   );

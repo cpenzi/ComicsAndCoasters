@@ -13,7 +13,7 @@ const MenuSection = ({ title, items, isOpen, toggleSection }) => (
                 <p>{item.description}</p>
               </div>
               <div className="item-image">
-                <img src={`/Assets/coffee-cup.png`} alt={item.name} />
+                <img src={`ComicsAndCoasters/Assets/coffee-cup.png`} alt={item.name} />
               </div>
             </div>
           ))}

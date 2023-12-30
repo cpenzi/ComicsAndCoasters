@@ -8,19 +8,19 @@ const teamMembers = [
     name: 'John Doe',
     role: 'Co-Founder',
     description: 'A coffee lover and comic enthusiast, John founded Comics and Coasters to combine his two passions.',
-    image: '../../Assets/StockImage.jpeg',
+    image: 'ComicsAndCoasters/Assets/StockImage.jpeg',
   },
   {
     name: 'Jane Smith',
     role: 'Barista',
     description: 'Jane brews the finest coffee in town and recommends comic books to pair with your favorite brew.',
-    image: '../../Assets/StockImage.jpeg',
+    image: 'ComicsAndCoasters/Assets/StockImage.jpeg',
   },
   {
     name: 'Alice Brown',
     role: 'Comic Curator',
     description: 'Alice is our comic book expert, ensuring we have a diverse collection for all comic lovers.',
-    image: '../../Assets/StockImage.jpeg',
+    image: 'ComicsAndCoasters/Assets/StockImage.jpeg',
   },
 ];
 
